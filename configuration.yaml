@@ -1,0 +1,6 @@
+# edge_tts (http://homeassistant.local:8123/hacs/repository/410867791) through HACS (https://hacs.xyz/) should be installed
+tts:
+  - platform: edge_tts
+    service_name: edge_nils_say
+    language: lv-LV-NilsNeural
+    volume: +10%

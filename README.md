@@ -2,6 +2,10 @@
 
 Home Assistant configuration scripts.
 
+## Configuration
+
+* [Configuration](configuration.yaml) - Home Assistant configuration file.
+
 ## Shell commands
 
 * [Extract LSM News Date](shell_commands/extract_lsm_zinas_date.sh) - Python shell command to extract the date from the [LSM Ziņas vieglajā valodā](https://www.lsm.lv/temas/zinas-vieglaja-valoda/) website.
