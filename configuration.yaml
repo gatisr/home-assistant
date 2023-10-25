@@ -4,3 +4,5 @@ tts:
     service_name: edge_nils_say
     language: lv-LV-NilsNeural
     volume: +10%
+
+command_line: !include command_line.yaml
