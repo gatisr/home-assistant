@@ -8,9 +8,10 @@ Home Assistant configuration scripts.
 
 ## Shell commands
 
-* [Extract LSM News Date](shell_commands/extract_lsm_zinas_date.sh) - Python shell command to extract the date from the [LSM Ziņas vieglajā valodā](https://www.lsm.lv/temas/zinas-vieglaja-valoda/) website.
-* [Extract LSM News mp3 URL](shell_commands/extract_lsm_zinas.sh) - Python shell command to extract the mp3 URL from the [LSM Ziņas vieglajā valodā](https://www.lsm.lv/temas/zinas-vieglaja-valoda/) website.
-
+* [Extract LSM News Date](shell_commands/extract_lsm_zinas_date.py) - Python shell command to extract the date from the [LSM Ziņas vieglajā valodā](https://www.lsm.lv/temas/zinas-vieglaja-valoda/) website.
+* [Extract LSM News mp3 URL](shell_commands/extract_lsm_zinas.py) - Python shell command to extract the mp3 URL from the [LSM Ziņas vieglajā valodā](https://www.lsm.lv/temas/zinas-vieglaja-valoda/) website.
+home-assistant/shell_commands
+/extract_lsm_zinas.sh
 ## Command line config
 
 _Python packages required: `beautifulsoup4`, `requests`_
