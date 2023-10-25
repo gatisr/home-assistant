@@ -1,0 +1,8 @@
+- sensor:
+    name: Ziņas īsumā URL
+    scan_interval: 3600
+    command: "python /config/shell_commands/extract_lsm_zinas.py"
+- sensor:
+    name: Ziņas īsumā date
+    scan_interval: 3600
+    command: "python /config/shell_commands/extract_lsm_zinas_date.py"
