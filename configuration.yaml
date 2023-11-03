@@ -1,3 +1,9 @@
+# https config for tailscale addon https://github.com/hassio-addons/addon-tailscale
+http:
+  use_x_forwarded_for: true
+  trusted_proxies: # allow requests from reverse Tailscale Proxy for https.
+    - 127.0.0.1
+
 # edge_tts (http://homeassistant.local:8123/hacs/repository/410867791) through HACS (https://hacs.xyz/) should be installed
 tts:
   - platform: edge_tts

@@ -1,0 +1,6 @@
+accept_dns: true
+advertise_exit_node: true
+accept_routes: true
+proxy: true
+taildrop: true
+userspace_networking: true
